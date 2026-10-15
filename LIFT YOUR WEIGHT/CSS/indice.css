@@ -1,0 +1,102 @@
+header {
+    background-color: #ffbd59;
+}
+
+/*calculadora IMC*/
+
+form {
+    top: 20px;
+    right: 50%;
+    margin: auto;
+    width: 315px;
+    height: 300px;
+    border: 1px solid hsl(0, 0%, 96%);
+    padding: 10px;
+    box-sizing: content-box;   
+    color: rgb(236, 147, 69);
+    font-family: arial black;
+    
+  }
+  
+  form label {
+    display: block;
+    line-height: 44px;
+  }
+  
+  form input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    text-indent: 5px;
+  }
+  
+  form button {
+    width: 100%; 
+    height: 48px; 
+    background-color: sandybrown; 
+    font-weight: bold; 
+    cursor: pointer; 
+    order: 0.5px; 
+    text-transform: uppercase; 
+    margin-top: 5%;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #917602;
+  }
+  /*cookies*/
+  #cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1900ff;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    display: none;
+  }
+
+  #cookie-banner button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+  }
+  
+  a.planes {
+    color: black;
+  }
+  p.buscarplan {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+    
+  /*Pie de página*/
+div.copyright {
+    text-align: center;
+  }
+  div.siguenos, ul, li {
+    list-style: none;
+    float: right;
+    font-weight: 100;
+  
+  }
+  footer{
+    background-color: #ffbd59;
+    color: #000000;
+    font-family: sans-serif bold;
+    display: block;
+    padding-top: 28px!important;
+    padding-bottom: 28px!important;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  
+  }

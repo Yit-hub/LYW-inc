@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #F5F5F5;
+  
+}
+/*PLANES RESUMEN*/
+.bajar, .subir{
+  background-color: #fbd1a2;  
+  border-radius: 10px;
+}
+.planes{
+  margin: auto;
+  padding: 60px;
+}
+
+p.buscarplan {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+a {
+  color: #F5F5F5;
+
+}
+a.planes {
+  color: black;
+}
+.verplan {
+  font-family: verdana black;
+  color: #f5f5f5;
+}
+/*Cabecera*/
+header {
+  background-color: #ffbd59;
+}
+
+
+/*Pie de página*/
+div.copyright {
+  text-align: center;
+}
+div.siguenos, ul, li {
+  list-style: none;
+  float: right;
+  font-weight: 100;
+
+}
+footer{
+  background-color: #ffbd59;
+  color: #000000;
+  font-family: sans-serif bold;
+  display: block;
+  padding-top: 28px!important;
+  padding-bottom: 28px!important;
+}
+
+
+a {
+  text-decoration: none;
+
+}
+
+ 

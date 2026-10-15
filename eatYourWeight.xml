@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="eatYourWeight.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="eatYourWeight.xsl" type="text/xsl"?>
+<eatYourWeight>
+    <!--Platos-->
+    <productos>
+        <!--Plan bajar masa-->
+        <bajarmasa>
+            <platos>
+                <plato calorias="234" tipo="pescado">
+                    <nombre>Salmon a la plancha</nombre>
+                    <ingredientes>
+                        <ingrediente>salmon</ingrediente>
+                        <ingrediente>sal</ingrediente>
+                        <ingrediente>limon</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>miel</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>pescado</alergeno>
+                    </alergenos>
+                </plato>
+                <plato calorias="348" tipo="vegano">
+                    <nombre>Boloñesa de lentejas</nombre>
+                    <ingredientes>
+                        <ingrediente>champiñones</ingrediente>
+                        <ingrediente>lentejas</ingrediente>
+                        <ingrediente>ajo</ingrediente>
+                        <ingrediente>tomate</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>zanahoria</ingrediente>
+                        <ingrediente>apio</ingrediente>
+                        <ingrediente>pasta sin glúten</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>apio</alergeno>
+                    </alergenos>
+               </plato>
+               <plato calorias="264" tipo="ave">
+                    <nombre>Pasta Alfredo con pollo</nombre>
+                    <ingredientes>
+                        <ingrediente>pollo</ingrediente>
+                        <ingrediente>pasta</ingrediente>
+                        <ingrediente>mantequilla</ingrediente>
+                        <ingrediente>leche</ingrediente>
+                        <ingrediente>mantequilla</ingrediente>
+                        <ingrediente>queso parmesano</ingrediente>
+                        <ingrediente>vino blanco</ingrediente>
+                        <ingrediente>sal</ingrediente>
+                        <ingrediente>perejil</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>gluten</alergeno>
+                        <alergeno>lactosa</alergeno>
+                    </alergenos>
+                </plato>
+                <plato calorias="300" tipo="carne">
+                    <nombre>Medallones de carne en salsa</nombre>
+                    <ingredientes>
+                        <ingrediente>caldo de res</ingrediente>
+                        <ingrediente>vino</ingrediente>
+                        <ingrediente>ajo</ingrediente>
+                        <ingrediente>pimienta</ingrediente>
+                        <ingrediente>setas portobello</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>lomo de res</ingrediente>
+                        <ingrediente>cebolla</ingrediente>
+                        <ingrediente>sal</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>sulfitos</alergeno>
+                    </alergenos>
+                </plato>
+                <plato calorias="365" tipo="vegano">
+                    <nombre>Zapallo spaghetti</nombre>
+                    <ingredientes>
+                        <ingrediente>zapallo spaghetti</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>sal Himalaya</ingrediente>
+                        <ingrediente>Pimienta</ingrediente>
+                        <ingrediente>limon</ingrediente>
+                        <ingrediente>tomate cherry</ingrediente>
+                        <ingrediente>albahaca</ingrediente>
+                        <ingrediente>perejil</ingrediente>
+                    </ingredientes>
+                </plato>
+                <plato calorias="415" tipo="crustaceo">
+                    <nombre>Brochetas de camaron</nombre>
+                    <ingredientes>
+                        <ingrediente>camaron</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>ajo</ingrediente>
+                        <ingrediente>azucar</ingrediente>
+                        <ingrediente>pimenton picante</ingrediente>
+                        <ingrediente>comino</ingrediente>
+                        <ingrediente>sal</ingrediente>
+                        <ingrediente>pimienta negra</ingrediente>
+                        <ingrediente>limon</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>crustaceo</alergeno>
+                        <alergeno>gluten</alergeno>
+                    </alergenos>
+                </plato>
+            </platos>
+        </bajarmasa>
+        <!--Plan subir masa-->
+        <subirmasa>
+            <platos>
+               <plato calorias="400" tipo="vegano">
+                    <nombre>Sopa de garbanzos</nombre>
+                    <ingredientes>
+                        <ingrediente>garbanzos</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>comino</ingrediente>
+                        <ingrediente>laurel</ingrediente>
+                        <ingrediente>tomate</ingrediente>
+                        <ingrediente>zapallo</ingrediente>
+                        <ingrediente>sal</ingrediente>
+                        <ingrediente>pimienta negra</ingrediente>
+                    </ingredientes>
+               </plato>
+               <plato calorias="340" tipo="ave">
+                    <nombre>Taco bowl</nombre>
+                    <ingredientes>
+                        <ingrediente>pollo</ingrediente>
+                        <ingrediente>frijoles</ingrediente>
+                        <ingrediente>maiz</ingrediente>
+                        <ingrediente>tomate cherry</ingrediente>
+                        <ingrediente>cebolla morada</ingrediente>
+                        <ingrediente>lechuga</ingrediente>
+                        <ingrediente>tortillas de trigo</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>gluten</alergeno>
+                    </alergenos>
+                </plato>
+                <plato calorias="426" tipo="carne">
+                    <nombre>Carne guisada con arroz</nombre>
+                    <ingredientes>
+                        <ingrediente>carne de res</ingrediente>
+                        <ingrediente>tomates</ingrediente>
+                        <ingrediente>patatas</ingrediente>
+                        <ingrediente>zanahoria</ingrediente>
+                        <ingrediente>cebollin</ingrediente>
+                        <ingrediente>cerveza</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>cilantro</ingrediente>
+                        <ingrediente>comino</ingrediente>
+                        <ingrediente>laurel</ingrediente>
+                        <ingrediente>achiote</ingrediente>
+                        <ingrediente>arroz blanco</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>soja</alergeno>
+                        <alergeno>apio</alergeno>
+                    </alergenos>
+                </plato>
+                <plato calorias="406" tipo="vegano">
+                    <nombre>Curry de garbanzos</nombre>
+                    <ingredientes>
+                        <ingrediente>garbanzos</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>cebolla blanca</ingrediente>
+                        <ingrediente>ajo</ingrediente>
+                        <ingrediente>jengibre</ingrediente>
+                        <ingrediente>curry</ingrediente>
+                        <ingrediente>sal</ingrediente>
+                        <ingrediente>pimienta</ingrediente>
+                        <ingrediente>comino</ingrediente>
+                        <ingrediente>tomate</ingrediente>
+                        <ingrediente>crema de coco</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>mostaza</alergeno>
+                    </alergenos>
+               </plato>
+               <plato calorias="613" tipo="carne">
+                    <nombre>Pasta genovesa</nombre>
+                    <ingredientes>
+                        <ingrediente>cebolla morada</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>apio</ingrediente>
+                        <ingrediente>panceta</ingrediente>
+                        <ingrediente>costillas de cerdo</ingrediente>
+                        <ingrediente>pimienta</ingrediente>
+                        <ingrediente>vino blanco</ingrediente>
+                        <ingrediente>pasta de trigo</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>apio</alergeno>
+                        <alergeno>gluten</alergeno>
+                    </alergenos>
+                </plato>
+                <plato calorias="550" tipo="ave">
+                    <nombre>Pollo al horno</nombre>
+                    <ingredientes>
+                        <ingrediente>pollo</ingrediente>
+                        <ingrediente>tomate</ingrediente>
+                        <ingrediente>vinagre de manzana</ingrediente>
+                        <ingrediente>aceite de oliva</ingrediente>
+                        <ingrediente>salsa inglesa</ingrediente>
+                        <ingrediente>curry</ingrediente>
+                        <ingrediente>achiote</ingrediente>
+                        <ingrediente>sal</ingrediente>
+                        <ingrediente>cebolla</ingrediente>
+                        <ingrediente>ajo</ingrediente>
+                        <ingrediente>patatas</ingrediente>
+                    </ingredientes>
+                    <alergenos>
+                        <alergeno>soja</alergeno>
+                        <alergeno>mostaza</alergeno>
+                    </alergenos>
+                </plato>
+            </platos>
+        </subirmasa>
+    </productos>
+</eatYourWeight>

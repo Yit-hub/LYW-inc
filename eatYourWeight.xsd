@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="eatYourWeight">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="productos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="bajarmasa">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="platos">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="plato" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombre" type="xs:string" maxOccurs="1"/>
+                                                                <xs:element name="ingredientes">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="ingrediente" type="xs:string" maxOccurs="unbounded"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="alergenos" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:group ref="alergeno"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="calorias">
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base="xs:integer">
+                                                                        <xs:pattern value="[0-9]{3}"></xs:pattern>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
+                                                            <xs:attribute name="tipo">
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base="xs:string">
+                                                                        <xs:enumeration value="ave"/>
+                                                                        <xs:enumeration value="pescado"/>
+                                                                        <xs:enumeration value="crustaceo"/>
+                                                                        <xs:enumeration value="vegano"/>
+                                                                        <xs:enumeration value="carne"/>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="subirmasa">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="platos">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="plato" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombre" type="xs:string" maxOccurs="1"/>
+                                                                <xs:element name="ingredientes">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="ingrediente" type="xs:string" maxOccurs="unbounded"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="alergenos" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:group ref="alergeno"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="calorias">
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base="xs:integer">
+                                                                        <xs:pattern value="[0-9]{3}"></xs:pattern>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
+                                                            <xs:attribute name="tipo">
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base="xs:string">
+                                                                        <xs:enumeration value="ave"/>
+                                                                        <xs:enumeration value="pescado"/>
+                                                                        <xs:enumeration value="crustaceo"/>
+                                                                        <xs:enumeration value="vegano"/>
+                                                                        <xs:enumeration value="carne"/>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:group name="alergeno">
+        <xs:choice>
+            <xs:sequence>
+                <xs:element name="alergeno" minOccurs="0" maxOccurs="unbounded">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="gluten"/>
+                            <xs:enumeration value="crustaceo"/>
+                            <xs:enumeration value="huevos"/>
+                            <xs:enumeration value="pescado"/>
+                            <xs:enumeration value="apio"/>
+                            <xs:enumeration value="mostaza"/>
+                            <xs:enumeration value="sesamo"/>
+                            <xs:enumeration value="cacahuete"/>
+                            <xs:enumeration value="soja"/>
+                            <xs:enumeration value="lactosa"/>
+                            <xs:enumeration value="cascara"/>
+                            <xs:enumeration value="molusco"/>
+                            <xs:enumeration value="altramuces"/>
+                            <xs:enumeration value="sulfitos"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:choice>
+    </xs:group>
+</xs:schema>
